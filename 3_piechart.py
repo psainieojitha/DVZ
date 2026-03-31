@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 1. load thedatasets
-df = pd.read_csv(r"C:\Users\Admin\Downloads\Dataset_Ques_1_4.xlsx - Dataset_Ques_1_4.csv")
+df = pd.read_csv(r"C:\Users\Admin\Downloads")
 product_cols = ['facecream','facewash','toothpaste','bathingsoap','shampoo','moisturizer']
 product_sales = df[product_cols].sum()
 print(product_cols)
